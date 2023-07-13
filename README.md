@@ -46,6 +46,9 @@ npm i -D babel-loader
 - Create `webpack` folder in root.
 - Create `webpack.config.js` file.
 - Add `npm start` script in `package.json` file.
+
+## Enable CSS Support
+
 - Install `css-loader` & `style-loader` to enable support for css files.
 
 ```bash
@@ -53,5 +56,24 @@ npm i -D css-loader style-loader
 ```
 
 - Include these loaders in `webpack.config.js` file.
+
+## Enable Image & SVG Support
+
 - Create `declarations.d.ts` file in `src` folder to enable importing images & svgs.
 - Enable image & svg support in `webpack.config.js` file to enable image support.
+
+## Webpack Config Environments
+
+- Rename `webpack.config.js` to `webpack.common.js`
+- Remove `mode: development` from this file.
+- Create `webpack.dev.js` for development environment in `webpack` folder.
+- Create `webpack.prod.js` for production environment in `webpack` folder.
+- Create `webpack.config.js` in `webpack` folder.
+- Install `webpack-merge` package:
+
+```bash
+npm i -D webpack-merge
+```
+
+- Update all the webpack files.
+- Update the scripts in `package.json`
