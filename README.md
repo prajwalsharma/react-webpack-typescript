@@ -39,10 +39,17 @@ npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 
 - Install `babel-loader`
 
-````bash
-npm i -D babel-loader```
-````
+```bash
+npm i -D babel-loader
+```
 
 - Create `webpack` folder in root.
 - Create `webpack.config.js` file.
 - Add `npm start` script in `package.json` file.
+- Install `css-loader` & `style-loader` to enable support for css files.
+
+```bash
+npm i -D css-loader style-loader
+```
+
+- Include these loaders in `webpack.config.js` file.
