@@ -25,3 +25,7 @@ npm i typescript @types/react @types/react-dom -D
 - Create `tsconfig.json` file
 - Create `App.tsx` & `index.tsx` files.
 - Install `Babel` to convert `React & Typescript` to `Javascript`
+
+```bash
+npm i -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript
+```
