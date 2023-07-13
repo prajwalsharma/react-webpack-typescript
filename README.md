@@ -42,3 +42,6 @@ npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ````bash
 npm i -D babel-loader```
 ````
+
+- Create `webpack` folder in root.
+- Create `webpack.config.js` file.
