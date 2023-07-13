@@ -45,3 +45,4 @@ npm i -D babel-loader```
 
 - Create `webpack` folder in root.
 - Create `webpack.config.js` file.
+- Add `npm start` script in `package.json` file.
