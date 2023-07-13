@@ -77,3 +77,13 @@ npm i -D webpack-merge
 
 - Update all the webpack files.
 - Update the scripts in `package.json`
+
+### Enable 'Fast Reloading/Hot Reloading'
+
+-Install `react-refresh-webpack-plugin` and `react-refresh` packages.
+
+```
+npm install -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+```
+
+- Update `webpack.dev.js` file
