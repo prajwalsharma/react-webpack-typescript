@@ -21,3 +21,5 @@ npm i react react-dom
 ```bash
 npm i typescript @types/react @types/react-dom -D
 ```
+
+- Create `tsconfig.json` file
