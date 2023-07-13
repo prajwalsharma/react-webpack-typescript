@@ -53,3 +53,5 @@ npm i -D css-loader style-loader
 ```
 
 - Include these loaders in `webpack.config.js` file.
+- Create `declarations.d.ts` file in `src` folder to enable importing images & svgs.
+- Enable image & svg support in `webpack.config.js` file to enable image support.
