@@ -36,3 +36,9 @@ npm i -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescr
 ```bash
 npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin
 ```
+
+- Install `babel-loader`
+
+````bash
+npm i -D babel-loader```
+````
