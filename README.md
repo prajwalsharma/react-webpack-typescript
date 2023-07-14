@@ -1,5 +1,13 @@
 ## React-Webpack-Typescript
 
+### Download the starter kit
+
+```
+npx degit https://github.com/prajwalsharma/react-webpack-typescript my-app
+```
+
+### How to create this from scratch
+
 - Create directory.
 - Create folder 'src'.
 - Create `.gitignore` file in root.
@@ -47,7 +55,7 @@ npm i -D babel-loader
 - Create `webpack.config.js` file.
 - Add `npm start` script in `package.json` file.
 
-## Enable CSS Support
+### Enable CSS Support
 
 - Install `css-loader` & `style-loader` to enable support for css files.
 
@@ -57,12 +65,12 @@ npm i -D css-loader style-loader
 
 - Include these loaders in `webpack.config.js` file.
 
-## Enable Image & SVG Support
+### Enable Image & SVG Support
 
 - Create `declarations.d.ts` file in `src` folder to enable importing images & svgs.
 - Enable image & svg support in `webpack.config.js` file to enable image support.
 
-## Webpack Config Environments
+### Webpack Config Environments
 
 - Rename `webpack.config.js` to `webpack.common.js`
 - Remove `mode: development` from this file.
@@ -87,6 +95,9 @@ npm install -D @pmmmwh/react-refresh-webpack-plugin react-refresh
 ```
 
 - Update `webpack.dev.js` file
+
+### Enable Promises Support
+
 - Install `core-js` and `regenerator-runtime` packages.
 
 ```
