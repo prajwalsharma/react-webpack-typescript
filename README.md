@@ -87,3 +87,8 @@ npm install -D @pmmmwh/react-refresh-webpack-plugin react-refresh
 ```
 
 - Update `webpack.dev.js` file
+- Install `core-js` and `regenerator-runtime` packages.
+
+```
+npm i -D core-js regenerator-runtime
+```
