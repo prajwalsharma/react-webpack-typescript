@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
-    "tscheck": "tsc"
+    "tscheck": "tsc",
+    "lint": "eslint --ext .js,.ts,.jsx,.tsx src",
+    "format": "npm run lint --fix & npx prettier --write src/"
   },
   "repository": {
     "type": "git",
@@ -34,7 +36,11 @@
     "babel-loader": "^9.1.3",
     "core-js": "^3.31.1",
     "css-loader": "^6.8.1",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-react-app": "^7.0.1",
     "html-webpack-plugin": "^5.5.3",
+    "prettier": "^3.0.0",
     "react-refresh": "^0.14.0",
     "regenerator-runtime": "^0.13.11",
     "style-loader": "^3.3.3",
